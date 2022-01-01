@@ -4,30 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="style.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+  
 <body>
 
-  Get insights that help your business grow.
+  <main role="main">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <div class="card-container">
+      
+      <div class="card-content">
+        
+        <h1 class="card-heading">Get <em class="em">insights</em> that help your business grow.</h1>
+        
+        <p class="card-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        
+        <div class="statistics">
+          <p class="stat-heading">10k+<span class="stat-item">companies</span></p>
+          <p class="stat-heading">314<span class="stat-item">templates</span></p>
+          <p class="stat-heading">12m+<span class="stat-item">queries</span></p>
+        </div>
+      </div> <!--closing tag class="card-content" -->
+    
+      <div class="card-img overlay">
+          <img class="img" src="images/image-header-desktop.jpg" alt="3 women at office desks">      
+      </div>
+      
+      
+    <div><!--closing tag class="card-container" -->
 
-  10k+ companies
-  314 templates
-  12m+ queries
+  </main>
 
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Brandon Walker</a>.
+  </footer>
 </body>
 </html>
