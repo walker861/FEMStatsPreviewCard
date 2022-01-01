@@ -113,10 +113,6 @@ img {
     border-radius: 0.8rem 0.8rem 0 0;
   }
 
-  img {
-    
-  }
-
   .card-content {
     display: flex;
     flex-direction: column;
