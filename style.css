@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -21,11 +21,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: hsl(244, 38%, 16%);
-	margin-block: 20%;
-	margin-inline: 5%;
+	margin-block: 10em;
+	margin-inline: auto;
 	border-radius: 0.8rem;
 	overflow: hidden;
 	text-align: center;
+	max-width: 65%;
+	width: 375px;
 }
 
 .tint {
@@ -97,10 +99,11 @@ p {
 	color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 870px) {
 	.card-container {
 		display: flex;
 		flex-direction: row-reverse;
+		max-width: 1300px;
 		width: 80%;
 		margin-block: 10%;
 		margin-inline: auto;
